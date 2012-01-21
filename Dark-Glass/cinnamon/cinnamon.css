@@ -268,20 +268,20 @@ StTooltip StLabel {
 }
 
 /* Menu */
-.applications-menu-favorites-box {
+.menu-favorites-box {
   width: 70%;
   margin: auto;
   padding: 10px;
   border: 1px solid #666;  
 }
-.applications-menu-favorites-button {
+.menu-favorites-button {
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 10px;    
 }
 
-.applications-menu-favorites-button:hover {
+.menu-favorites-button:hover {
     color: white;
 	 background-gradient-direction: vertical;
    	 background-gradient-start: rgba(255,255,255,0.33);
@@ -290,35 +290,35 @@ StTooltip StLabel {
     border-radius: 4px;
 }
 
-.places-box {
+.menu-places-box {
   width: 70%;
   margin: auto;
   padding: 10px;
   border: 0px solid #666;  
 }
-.places-button {
+.menu-places-button {
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 10px;    
 }
 
-.categories-box {
+.menu-categories-box {
     padding-top: 10px;
     padding-left: 30px;
     padding-right: 30px;
     padding-bottom: 10px;    
 }
-.applications-box {
+.menu-applications-box {
     padding-top: 10px;
     padding-left: 30px;
     padding-right: 30px;
     padding-bottom: 10px;    
 }
-.applications-scrollbox {
+.menu-applications-scrollbox {
     height: 300px;
 }
-.applications-title {
+.menu-applications-title {
 	padding-top: 15px;
 	padding-bottom: 5px;
 	padding-right: 5px;
@@ -340,21 +340,21 @@ StTooltip StLabel {
 	font-weight: bold;
 }
 
-.favorites-title:hover {
+.menu-favorites-title:hover {
     font-weight: bold;   
 }
 
 
 
-.application-button {
+.menu-application-button {
     padding-top: 7px;
     padding-left: 7px;
     padding-right: 7px;
     padding-bottom: 7px;    
 }
 
-.application-button:hover,
-.application-button-selected {
+.menu-application-button:hover,
+.menu-application-button-selected {
     padding-top: 7px;
     padding-left: 7px;
     padding-right: 7px;
@@ -371,11 +371,11 @@ background-gradient-direction: vertical;
     border-radius: 4px;
 }
 
-.application-button-label { 
+.menu-application-button-label { 
     padding-left: 5px       
 }
 
-.category-button {
+.menu-category-button {
     padding-top: 7px;
     padding-left: 7px;
     padding-right: 7px;
@@ -383,7 +383,7 @@ background-gradient-direction: vertical;
     font-weight: normal;    
 }
 
-.category-button-selected {
+.menu-category-button-selected {
     padding-top: 7px;
     padding-left: 7px;
     padding-right: 7px;
@@ -396,31 +396,31 @@ background-gradient-direction: vertical;
    	 border-radius: 4px;
 }
 
-.category-button-label { 
+.menu-category-button-label { 
     padding-left: 5px       
 }
 
-.category-button-button:hover {
+.menu-category-button-button:hover {
     background-color: #969696;
     border-radius: 8px;
 }
 
-.selected-app-box {
+.menu-selected-app-box {
     padding-right: 30px;
     padding-left: 28px;
     text-align: right;
 }
 
-.selected-app-title {
+.menu-selected-app-title {
     font-weight: bold;
     font-size: small;
 }
 
-.selected-app-description {
+.menu-selected-app-description {
     max-width: 150px;
 }
 
-.search_box {
+.menu-search-box {
    padding-left: 30px;
 }
 
@@ -596,11 +596,11 @@ background-gradient-direction: vertical;
     padding-bottom: 10px;
 }
 
-.volume-menu-item {
+.sound-volume-menu-item {
     padding: .4em 1.75em;
 }
 
-.volume-menu-item StIcon {
+.sound-volume-menu-item StIcon {
     icon-size: 1.14em;
     padding-left: 8px;
 }
@@ -1014,11 +1014,11 @@ background-gradient-direction: vertical;
     padding: 16px;
 }
 
-#searchArea {
+#menu-searchrea {
     padding: 0px 24px;
 }
 
-#searchEntry {
+#menu-search-entry {
     padding: 4px 12px;
     border-radius: 4px;
     color: rgba(255,255,255,0.7);
@@ -1036,8 +1036,8 @@ background-gradient-direction: vertical;
     box-shadow: 0px 2px 4px rgba(0,0,0,0.6);
 }
 
-#searchEntry:focus,
-#searchEntry:hover {
+#menu-search-entry:focus,
+#menu-search-entry:hover {
     border: 3px solid rgba(255,255,255,0.6);
     background-gradient-start: rgba(255,255,255,0.6);
     background-gradient-end: rgba(5,5,5,0.4);
@@ -1047,17 +1047,17 @@ background-gradient-direction: vertical;
     border-top: 1px;
 }
 
-#searchEntry:hover {
+#menu-search-entry:hover {
     transition-duration: 300;
 }
 
-#searchEntry:focus {
+#menu-search-entry:focus {
     color: #fff;
     font-weight: bold;
     transition-duration: 0;
 }
 
-.search-entry-icon {
+.menu-search-entry-icon {
     icon-size: 1em;
     color: rgba(255,255,255,0.6);
 }
