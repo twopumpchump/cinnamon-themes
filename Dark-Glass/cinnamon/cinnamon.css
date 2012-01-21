@@ -554,22 +554,22 @@ background-gradient-direction: vertical;
 }
 
 /* Media Player controls */
-.button-container {
+.sound-button-container {
     padding-right: 5px;
 }
 
-.button {
+.sound-button {
     width: 22px;
     height: 13px;
     border: 1px solid #555;
     border-radius: 4px;
     padding: 7px;
 }
-.button:hover {
+.sound-button:hover {
     border: 1px solid white;
 }
 
-.button StIcon {
+.sound-button StIcon {
     icon-size: 1.4em;
 }
 
@@ -897,7 +897,7 @@ background-gradient-direction: vertical;
 
 #overview {
     spacing: 12px;
-    background-color: rgba(5,5,5,0.6);
+
 }
 
 .window-caption {
@@ -1655,23 +1655,12 @@ background-gradient-direction: vertical;
 
 /* Overview corner */
 #overview-corner {
-    /*background-gradient-direction: horizontal;
-    background-gradient-start: rgba(255,255,255,0.1);
-    background-gradient-end: rgba(255,255,255,0.44);
-    box-shadow: inset 0 -1px -1px 0 rgba(255,255,255,0.44);
-    border: 0px; 
-    border-radius: 0 0 28px 0;    transition-duration: 100;*/
+	background-image: url("overview.png");
 }
 
-#overview-corner:hover { 
-    /*background-gradient-direction: horizontal;
-    background-gradient-start: rgba(255,255,255,0.2);
-    background-gradient-end: rgba(255,255,255,0.54);
-    box-shadow: inset 0 -1px -1px 0 rgba(255,255,255,0.44);
-    border: 0px; 
-    border-radius: 0 0 28px 0;    transition-duration: 100;*/
+#overview-corner:hover {    
+    background-image:  url("overview-hover.png");
 }
-
 /* Message Tray */
 #message-tray {
     background-color: rgba(5,5,5,0.4);
@@ -1698,6 +1687,7 @@ background-gradient-direction: vertical;
     spacing-rows: 10px;
     spacing-columns: 10px;
     width: 34em;
+    color: white;
 }
 
 #notification.multi-line-notification {
