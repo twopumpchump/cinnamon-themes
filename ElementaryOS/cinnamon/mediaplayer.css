@@ -1,9 +1,9 @@
 /* Media Player controls */
-.button-container {
+.sound-button-container {
     padding-right: 5px;
 }
 
-.button {
+.sound-button {
     width: 22px;
     height: 13px;
     border: 1px solid #555;
@@ -11,34 +11,34 @@
     padding: 7px;
 }
 
-.button:hover {
+.sound-button:hover {
     border: 1px solid white;
 }
 
-.button StIcon {
+.sound-button StIcon {
     color: white; 
     icon-size: 1.4em;
 }
 
-.track-infos {
+.sound-track-infos {
     padding-left: 10px;
 }
 
-.track-info {
+.sound-track-info {
     padding-bottom: 4px;
 }
 
-.track-info StIcon {
+.sound-track-info StIcon {
     color: white; 
     icon-size: 1em;
 }
 
-.track-info StLabel {
+.sound-track-info StLabel {
     color: white;     
     padding-left: 5px;
 }
 
-.track-box {
+.sound-track-box {
     padding-top: 20px;
     padding-left: 30px;
     padding-right: 30px;
@@ -54,7 +54,7 @@
     padding-left: 8px;
 }
 
-.playback-control {
+.sound-playback-control {
     padding-top: 5px;
     padding-bottom: 10px;
 }
