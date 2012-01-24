@@ -1,0 +1,27 @@
+
+Cinnamon 'Frost' theme 
+----------------------
+
+This is Cinnamon theme based on Frost theme(for Gnome-Shell) originally created by ~gunnarflax(http://gunnarflax.deviantart.com/). This version is compatible with the latest Cinnamon shell 1.1.3.
+Autor: Daniel Molnar <daniel4molnar@gmail.com>
+Original author : Niklas Rosenqvist <niklas.s.rosenqvist@gmail.com>
+Original theme source:  http://browse.deviantart.com/customization/skins/linuxutil/desktopenv/gnome/gnome/?qh=&section=&q=Frost#/d4iole5
+
+Installation Instructions:
+
+Extract the zip file to the themes directory i.e. "~/.themes/" or "/usr/share/themes/".
+
+Use Cinnamon(ver. <=1.1.3) Theme Extension(in overview) to choose the themes.
+
+Launch Cinnamon Settings(in Cinnamon 1.1.4) and inside Themes tab select the theme
+
+Gnome Tweak Tool is not compatible completly with Cinnamon. 
+---
+
+Warning:
+
+This theme may not be compatible with Cinnamon 1.1.4(due to certain changes in Cinnamon.)
+
+---
+
+License: GPL
