@@ -102,3 +102,15 @@
 	font-size: 6pt;
 	font-style: italic;
 }
+
+/* ===================================================================
+ * Overview corner
+ * ===================================================================*/
+#overview-corner {
+	background-image: url("overview.png");
+}
+
+#overview-corner:hover {    
+    background-image:  url("overview-hover.png");
+}
+
