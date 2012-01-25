@@ -284,21 +284,21 @@ StTooltip StLabel {
         padding-right: 2px;
 }
 
-.applications-menu-favorites-box {
+.menu-favorites-box {
   width: 70%;
   margin: auto;
   padding: 10px;
   border-shadow: inset 2px 2px 2px 2px blue;  
   border-image: url("images/favorite.svg");  
 }
-.applications-menu-favorites-button {
+.menu-favorites-button {
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 10px;    
 }
 
-.applications-menu-favorites-button:hover {
+.menu-favorites-button:hover {
     color: rgb(255,230,45);
     text-shadow:rgb(49,105,179) 1px 1px 1px 1px;
     	 background-gradient-direction: vertical;
@@ -308,44 +308,44 @@ StTooltip StLabel {
     border-radius: 4px;
 }
 
-.places-box {
+..menu-places-box {
   width: 70%;
   margin: auto;
   padding: 10px;
   border: 0px solid #666;  
 }
-.places-button {
+..menu-places-button {
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 10px;    
 }
 
-.categories-box {
+.menu-categories-box {
     padding-top: 10px;
     padding-left: 30px;
     padding-right: 30px;
     padding-bottom: 10px;    
 }
-.applications-box {
+.menu-applications-box {
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 0px;    
 }
-.applications-scrollbox {
+.menu-applications-scrollbox {
     height: 300px;
 }
 
-.application-button {
+.menu-application-button {
     padding-top: 7px;
     padding-left: 7px;
     padding-right: 7px;
     padding-bottom: 7px;    
 }
 
-.application-button:hover,
-.application-button-selected {
+.menu-application-button:hover,
+.menu-application-button-selected {
     padding-top: 7px;
     padding-left: 7px;
     padding-right: 7px;
@@ -355,18 +355,18 @@ StTooltip StLabel {
     text-shadow:rgb(49,105,179) 1px 1px 1px 1px;
 }
 
-.application-button-label { 
+.menu-application-button-label { 
     padding-left: 5px       
 }
 
-.category-button {
+.menu-category-button {
     padding-top: 7px;
     padding-left: 7px;
     padding-right: 7px;
     padding-bottom: 7px;         
 }
 
-.category-button-selected {
+.menu-category-button-selected {
     padding-top: 7px;
     padding-left: 7px;
     padding-right: 7px;
@@ -376,11 +376,11 @@ StTooltip StLabel {
     text-shadow:rgb(49,105,179) 1px 1px 1px 1px;
 }
 
-.category-button-label { 
+.menu-category-button-label { 
     padding-left: 5px       
 }
 
-.category-button-button:hover {
+.menu-category-button-button:hover {
     border-image:url("images/selected.svg");
     color: rgb(255,230,40);
     text-shadow:rgb(49,105,179) 1px 1px 1px 1px;
@@ -394,19 +394,19 @@ StTooltip StLabel {
     text-align: right;
 }
 
-.selected-app-title {
+.menu-selected-app-title {
     font-weight: bold;
 }
 
-.selected-app-description {
+.menu-selected-app-description {
     max-width: 150px;
 }
 
-.search_box {
+.menu-search_box {
    padding-left: 30px;
 }
 
-#searchEntry {
+#menu-search-entry {
     padding: 4px 12px;
     border-radius: 5px;
     color: #e0e0e0;
@@ -416,24 +416,33 @@ StTooltip StLabel {
     
 }
 
-#searchEntry:hover {
+#menu-search-entry:hover {
     color: rgb(255,240,50);
 }
 
-#searchEntry:hover {
+#menu-search-entry:hover {
     transition-duration: 300;
 }
 
-#searchEntry:focus {
+#menu-search-entry:focus {
     color: yellow;
     font-weight:bold;
     text-shadow: rgba(49,105,179,0.5) 1px 1px 1px 1px;
 }
 
-.search-entry-icon {
+.menu-search-entry-icon {
     icon-size: 1.4em;
     color: yellow;
     icon-shadow: rgb(49,105,179) 1px 1px 1px 1px;
+}
+
+.menu-category-button-greyed {
+    padding-top: 7px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-bottom: 7px; 
+    color: yellow;
+    font-style: italic;
 }
 
 /* Context menu (at the moment only for favorites) */
