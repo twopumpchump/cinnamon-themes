@@ -27,4 +27,7 @@ sudo cp -R WoodnTux /usr/share/themes/
 sudo rm -rf /usr/share/themes/Frost
 sudo cp -R Frost /usr/share/themes/
 
+sudo rm -rf /usr/share/themes/BlueOnBlack
+sudo cp -R BlueOnBlack /usr/share/themes/
+
 
